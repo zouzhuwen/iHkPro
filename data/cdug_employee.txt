@@ -1,0 +1,55 @@
+#企业用户管理
+
+上传图片接口：
+http://192.168.0.99:9080/api/os/upload-picture
+
+Content-Type: application/json;charset=UTF-8
+
+返回数据：
+data: "os/20220213/af2cbf79936a41fa8926c5e2b8bbf54b.png"
+nonceStr: "e2decc0b9e98485c995f20181f0f21b5"
+returnCode: "0000"
+returnMsg: "Success"
+success: true
+
+
+添加接口：post
+http://192.168.0.99:9080/api/os/add-or-edit-user
+参数：
+userName=xx&mobile=13522222222&storeId=880034396923645952&roleId=882344396056453120&password=e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1&file=os%2F20220213%2Faf2cbf79936a41fa8926c5e2b8bbf54b.png
+
+参数格式：Content-Type: application/x-www-form-urlencoded
+返回数据：
+{"returnCode":"0000","returnMsg":"Success","nonceStr":"fe48a1b6076b4dca830d25f3331b877b","success":true,"data":null}
+
+
+编辑接口：post
+http://192.168.0.99:9080/api/os/add-or-edit-user
+参数：
+userId: 922536156761948160
+userName: 企业助手3
+mobile: 13500000051
+storeId: 879748988184711168,880034396923645952,912780460919713792
+roleId: 881915792654925824
+beforeRoleId: 881915792654925824
+
+参数格式：Content-Type: application/x-www-form-urlencoded
+
+返回数据：
+{"returnCode":"0000","returnMsg":"Success","nonceStr":"9c11eafb69d14114816c19eac7087c60","success":true,"data":null}
+
+
+查看接口：get
+http://192.168.0.99:9080/api/os/login-log-list?pageSize=10&pageNum=1&userId=922536156761948160
+
+返回数据：
+{"returnCode":"0000","returnMsg":"Success","nonceStr":"426d46f0f8894c8e86ff9f071639c6fe","success":true,"data":{"total":0,"pageCount":0,"pageNum":1,"pageSize":10,"list":[]}}
+
+删接口： get
+http://192.168.0.99:9080/api/os/delete-user?userId=942413446631141376:882344396056453120&userName=xx
+
+{"returnCode":"0000","returnMsg":"Success","nonceStr":"3f03fc32d1ce410d946035135cd9f49a","success":true,"data":null}
+
+
+
+

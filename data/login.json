@@ -1,0 +1,81 @@
+[
+  {
+    "desc": "登录成功",
+    "login_data": {"loginName":"13500000000",
+    "password":"e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode":"0000" ,
+    "returnMsg":"Success"
+  },
+  {
+    "desc": "密码错误",
+    "login_data": {"loginName":"13500000000",
+    "password":"1e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode":"IHKER04" ,
+    "returnMsg":"账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟"
+  },
+  {
+    "desc": "账号不存在",
+    "login_data":{"loginName":"13599990000",
+    "password":"1e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode":"IHK14" ,
+    "returnMsg":"用户不存在"
+  },
+  {
+    "desc": "账号为空",
+    "login_data":{ "loginName":"",
+    "password":"e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode": "UAA88",
+    "returnMsg": "参数异常"
+  },
+  {
+    "desc": "密码为空",
+    "login_data":{"loginName":"13500000000",
+    "password":""},
+    "status_code": 200,
+     "returnCode": "IHKER04",
+    "returnMsg": "账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟"
+  },{
+    "desc": "账号密码都为空",
+    "login_data":{"loginName":"",
+    "password":""},
+    "status_code": 200,
+    "returnCode": "UAA88",
+    "returnMsg": "参数异常"
+  },{
+    "desc": "账号少于11位",
+    "login_data":{"loginName":"1330000000",
+    "password":"e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode": "IHK14",
+    "returnMsg": "用户不存在"
+  },{
+    "desc": "账号大于11位",
+    "login_data":{"loginName":"135000000001",
+    "password":"e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode": "IHK14",
+    "returnMsg": "用户不存在"
+  },{
+    "desc": "不传loginName参数",
+    "login_data":{"password":"e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"},
+    "status_code": 200,
+    "returnCode": "UAA88",
+    "returnMsg": "参数异常"
+  },{
+    "desc": "不传password参数",
+    "login_data":{"loginName":"13500000000"},
+    "status_code": 200,
+    "returnCode": "500",
+    "returnMsg": "系统处理异常，请联系管理员！"
+  },{
+    "desc": "不传loginName和password参数",
+    "login_data":{},
+    "status_code": 200,
+    "returnCode": "UAA88",
+    "returnMsg": "参数异常"
+  }
+]
