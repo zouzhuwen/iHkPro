@@ -2,6 +2,7 @@
 import unittest
 from api.login import LoginApi
 import app
+from utils import common_assert
 
 #创建测试类
 class TestLogin(unittest.TestCase):
@@ -19,8 +20,11 @@ class TestLogin(unittest.TestCase):
         print(response.json())
         #断言
         self.assertEqual(200, response.status_code)
+        self.assertEqual(True, response.json().get("success"))
         self.assertEqual("0000", response.json().get("returnCode"))
         self.assertIn("Success", response.json().get("returnMsg"))
+        common_assert(self,response)
+
 
         #print(response.json().get("data").get("token"))
         app.TOKEN="token={}".format(response.json().get("data").get("token"))
@@ -32,9 +36,7 @@ class TestLogin(unittest.TestCase):
         response = self.login_api.login({"loginName":"13500000000","password":"1e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         #断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("IHKER04", response.json().get("returnCode"))
-        self.assertIn("账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟", response.json().get("returnMsg"))
+        common_assert(self, response,200,False,"IHKER04","账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟")
 
     # 账号不存在
     def test03_case003(self):
@@ -42,9 +44,7 @@ class TestLogin(unittest.TestCase):
                                          "password": "e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("IHK14", response.json().get("returnCode"))
-        self.assertIn("用户不存在", response.json().get("returnMsg"))
+        common_assert(self,response,200,False,"IHK14","用户不存在")
 
     # 账号为空
     def test04_case004(self):
@@ -52,9 +52,7 @@ class TestLogin(unittest.TestCase):
                                          "password": "e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("UAA88", response.json().get("returnCode"))
-        self.assertIn("参数异常", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "UAA88", "参数异常")
 
     # 密码为空
     def test05_case005(self):
@@ -62,19 +60,14 @@ class TestLogin(unittest.TestCase):
                                          "password": ""})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("IHKER04", response.json().get("returnCode"))
-        self.assertIn("账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "IHKER04", "账号或密码有误，请重新输入。提示：账号或密码输入错误超过5次，系统将锁定30分钟")
 
     # 账号密码都为空
     def test06_case006(self):
-        response = self.login_api.login({"loginName": "",
-                                         "password": ""})
+        response = self.login_api.login({"loginName": "","password": ""})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("UAA88", response.json().get("returnCode"))
-        self.assertIn("参数异常", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "UAA88", "参数异常")
 
     # 账号少于11位
     def test07_case007(self):
@@ -82,9 +75,7 @@ class TestLogin(unittest.TestCase):
                                          "password": "e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("IHK14", response.json().get("returnCode"))
-        self.assertIn("用户不存在", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "IHK14", "用户不存在")
 
     # 账号大于11位
     def test08_case008(self):
@@ -92,9 +83,7 @@ class TestLogin(unittest.TestCase):
                                          "password": "e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("IHK14", response.json().get("returnCode"))
-        self.assertIn("用户不存在", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "IHK14", "用户不存在")
 
     # 不传loginName参数
     def test09_case009(self):
@@ -102,9 +91,7 @@ class TestLogin(unittest.TestCase):
                                          "password": "e52f073160e5604f72b24a7d6df0d526b5c0b0e2fa7ecac31ca45223ebe9a0d1"})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("UAA88", response.json().get("returnCode"))
-        self.assertIn("参数异常", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "UAA88", "参数异常")
 
     # 不传password参数
     def test10_case010(self):
@@ -112,15 +99,11 @@ class TestLogin(unittest.TestCase):
         print(response.json())
 
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("500", response.json().get("returnCode"))
-        self.assertIn("系统处理异常，请联系管理员！", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "500", "系统处理异常，请联系管理员")
 
     # 不传loginName和password参数
     def test11_case011(self):
         response = self.login_api.login({})
         print(response.json())
         # 断言
-        self.assertEqual(200, response.status_code)
-        self.assertEqual("UAA88", response.json().get("returnCode"))
-        self.assertIn("参数异常", response.json().get("returnMsg"))
+        common_assert(self, response, 200, False, "UAA88", "参数异常")

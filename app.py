@@ -14,5 +14,5 @@ TOKEN= None
 
 #请求头数据
 headers_data={
-    "Cookie":"token=8d3cb438228b4aa18fdddb48fefdf828"
+    "Cookie":"token=6972dd475010456cafa0e2a7f1c071f3"
 }

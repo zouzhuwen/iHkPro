@@ -23,7 +23,7 @@ def bulid_data():
     return test_data
 
 #创建测试类
-class TestLogin(unittest.TestCase):
+class TestLogin02(unittest.TestCase):
     #前置处理
     def setUp(self):
         self.login_api = LoginApi()

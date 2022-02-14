@@ -1,14 +1,18 @@
 # 导包
 import time
-
 from app import BASE_DIR
 import unittest
 from tools.HTMLTestRunner import HTMLTestRunner
 from scripts.test01_login import TestLogin
-# 组装测试套件
+from scripts.test03_employee import TestEmployee
 
+# 组装测试套件
 suit =unittest.TestSuite()
-suit.addTest(unittest.makeSuite(TestLogin))
+#登录接口测试用例
+# suit.addTest(unittest.makeSuite(TestLogin))
+#员工管理场景测试用例
+suit.addTest(TestLogin("test01_case001"))
+suit.addTest(unittest.makeSuite(TestEmployee))
 
 # 指定测试报告的路径
 report = BASE_DIR+"/report/report{}.html".format(time.strftime("%Y%m%d-%H%M%S"))

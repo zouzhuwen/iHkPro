@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a19b841f-6035-4a72-92dd-6165fd3a138e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/upload_picture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/图片.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/iHkPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iHkPro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_suite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test01_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test01_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test02_login_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_login_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test03_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test03_employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="255D0G9c6EhcGAS2WDv8U9BDGpI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PycharmProjects/PycharmProject" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\API\iHkPro\data" />
+      <recent name="D:\API\iHkPro\scripts" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run_suite">
+    <configuration name="run_suite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_suite.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/upload_picture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for scripts.test03_employee.TestEmployee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;scripts.test03_employee.TestEmployee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test01_login.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test01_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test03_employee.TestEmployee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test03_employee.TestEmployee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test03_employee.TestEmployee.test01_add_employee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="iHkPro" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test03_employee.TestEmployee.test01_add_employee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_suite" />
+        <item itemvalue="Python tests.Unittests for test03_employee.TestEmployee.test01_add_employee" />
+        <item itemvalue="Python.upload_picture" />
+        <item itemvalue="Python tests.Unittests for test03_employee.TestEmployee" />
+        <item itemvalue="Python tests.Unittests for test01_login.TestLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19b841f-6035-4a72-92dd-6165fd3a138e" name="Default Changelist" comment="" />
+      <created>1644807829453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644807829453</updated>
+      <workItem from="1644807832715" duration="12806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1644807788017">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="45" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644807788017" />
+    <state x="340" y="3" key="#run_suite" timestamp="1644807816682">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="340" y="3" key="#run_suite/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644807816682" />
+    <state x="340" y="0" key="#test03_employee" timestamp="1644807801477">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="340" y="0" key="#test03_employee/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644807801477" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1644827678767">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644827678767" />
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1644826537324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
+    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1644826537324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
+    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1644826537324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1644826537324">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="260" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1644816936436">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644816936436" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/iHkPro$upload_picture.coverage" NAME="upload_picture Coverage Results" MODIFIED="1644824361083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin_test08_case008.coverage" NAME="Unittests for test01_login.TestLogin.test08_case008 Coverage Results" MODIFIED="1644818025547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin.coverage" NAME="Unittests for test01_login.TestLogin Coverage Results" MODIFIED="1644819256240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$test03_employee.coverage" NAME="test03_employee Coverage Results" MODIFIED="1644809126390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin_test06_case006.coverage" NAME="Unittests for test01_login.TestLogin.test06_case006 Coverage Results" MODIFIED="1644817991650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test03_employee_TestEmployee.coverage" NAME="Unittests for test03_employee.TestEmployee Coverage Results" MODIFIED="1644819460054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin_test05_case005.coverage" NAME="Unittests for test01_login.TestLogin.test05_case005 Coverage Results" MODIFIED="1644817885407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test033_employee_TestEmployee.coverage" NAME="Unittests for test033_employee.TestEmployee Coverage Results" MODIFIED="1644809148165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test03_employee_TestEmployee_test01_add_employee.coverage" NAME="Unittests for test03_employee.TestEmployee.test01_add_employee Coverage Results" MODIFIED="1644826440879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test02_login_params_TestLogin.coverage" NAME="Unittests for test02_login_params.TestLogin Coverage Results" MODIFIED="1644808122967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin_test01_case001.coverage" NAME="Unittests for test01_login.TestLogin.test01_case001 Coverage Results" MODIFIED="1644817457514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$run_suite.coverage" NAME="run_suite Coverage Results" MODIFIED="1644826537313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_for_test01_login_TestLogin_test07_case007.coverage" NAME="Unittests for test01_login.TestLogin.test07_case007 Coverage Results" MODIFIED="1644818012070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/iHkPro$Unittests_in_test033_employee_py.coverage" NAME="Unittests in test03_employee.py Coverage Results" MODIFIED="1644809182631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+</project>

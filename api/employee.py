@@ -50,6 +50,7 @@ class EmployeeApi():
 
     # 员工添加
     def add_employee(self,data):
+        print(app.headers_data)
         return  requests.post(url=self.url_add_employee,data=data,headers=app.headers_data)
 
     # 员工修改
