@@ -4,10 +4,6 @@
     <expand>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
@@ -16,22 +12,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19b841f-6035-4a72-92dd-6165fd3a138e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/upload_picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/图片.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iHkPro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iHkPro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test01_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test01_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test02_login_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test02_login_params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test03_employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test03_employee.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PycharmProjects/PycharmProject" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -193,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644807829453</updated>
-      <workItem from="1644807832715" duration="12806000" />
+      <workItem from="1644807832715" duration="14295000" />
     </task>
     <servers />
   </component>
@@ -205,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -228,22 +233,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644827678767" />
-    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1644826537324">
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1644912877320">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="260" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
-    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1644826537324">
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644912877320" />
+    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1644912877320">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="260" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
-    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1644826537324">
+    <state width="1237" height="260" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644912877320" />
+    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1644912877320">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="260" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
-    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1644826537324">
+    <state width="1237" height="260" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644912877320" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1644912877320">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="260" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644826537324" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644912877320" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1644912819769">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644912819769" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1644914738955">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1644914738955" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1644816936436">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
